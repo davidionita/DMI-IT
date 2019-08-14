@@ -471,8 +471,10 @@ p {
 }
 
 .what-we-do .tab-content-services .right-image img {
+  margin-top: 3%;
   max-height: 245px;
-  width: auto;
+  width: 320px;
+  overflow: hidden;
 }
 
 .what-we-do .tab-content-services .left-text h4 {
