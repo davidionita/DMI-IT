@@ -872,6 +872,20 @@ footer .back-to-top i {
 
 }
 
+@media (max-height: 550px){
+    .banner-content {
+        text-align: center;
+        padding: 25% 0px 200px 0px;
+    }
+}
+
+@media (max-height: 425px){
+  .downArrow {
+    visibility: hidden;
+  }
+}
+
+
 
 
 /* LIGHT BOX */
