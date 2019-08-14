@@ -473,7 +473,7 @@ p {
 .what-we-do .tab-content-services .right-image img {
   margin-top: 3%;
   max-height: 245px;
-  width: 320px;
+  width: 305px;
   overflow: hidden;
 }
 
@@ -822,6 +822,10 @@ footer .back-to-top i {
     padding: 30px 0px;
   }
 
+  #form-submit {
+    margin-bottom: 25px;
+  }
+
 }
 
 @media (max-width: 767px){
@@ -829,7 +833,7 @@ footer .back-to-top i {
   .navbar-brand {
     float: none;
   }
-  
+
   .menu-first {
     margin: 0px;
     padding: 0px;
@@ -862,7 +866,15 @@ footer .back-to-top i {
   .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #f2745f;
   }
-  
+
+  .downArrow {
+    position: absolute;
+    bottom: 0;
+    height: 4vh;
+    left: 50%;
+    margin-left: -26.21100px;
+    margin-bottom: 45%;
+  }
 
 }
 
